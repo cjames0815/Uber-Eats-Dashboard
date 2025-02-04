@@ -1,11 +1,8 @@
-import {Card, Description, Divider, Button} from 'antd';
-import dishes from '../src/assets/data/dishes.json';
-
-function App() {
+import DetailedOrder from "./modles/DetailedOrder";
+import Order from ".modules/Orders";
+function App(){
   return (
-    <Card title={'Order Title'}>
-
-    </Card>
+    <DetailedOrder />
   );
 }
 
